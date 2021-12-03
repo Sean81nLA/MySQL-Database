@@ -1,4 +1,4 @@
-Select a.id, a.name
-from Students a left join Departments b
+select a.id,a.name
+from students a  left join Departments b
 on a.department_id=b.id
-where b.id is NULL 
+where b.id is null
