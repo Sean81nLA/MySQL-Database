@@ -4,4 +4,3 @@ select employee_id,
  Else salary IS NULL
  End) as bonus 
 from employees 
-
